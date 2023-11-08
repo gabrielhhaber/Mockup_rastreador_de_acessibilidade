@@ -1,0 +1,6 @@
+ul.nav-list, ul.company-list, ul#login-options {
+	list-style-type: none;
+}
+#login-options>li>a {
+	appearance: button;
+}
