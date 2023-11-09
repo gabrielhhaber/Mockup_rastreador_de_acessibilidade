@@ -1,6 +1,9 @@
-ul.nav-list, ul.company-list, ul#login-options {
+ul {
 	list-style-type: none;
 }
 #login-options>li>a {
+	appearance: button;
+}
+#rate-link {
 	appearance: button;
 }

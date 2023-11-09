@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/menu.css"/>
-		<title>Fazer login - Rastreador de Acessibilidade</title>
+		<title>Notícias - Rastreador de Acessibilidade</title>
 	</head>
 	<body>
 		<header>
@@ -15,8 +15,8 @@
 			<div id="search">
 				<form id="search-form">
 					<div id="form-field">
-						<label for="search-input">Pesquisar</label> 
-							<input type="search" id="search-input" placeholder="Pesquise pelo nome de uma empresa" required/>
+						<label class="form-label" for="search-input">Pesquisar 
+							<input type="search" id="search-input" placeholder="Pesquise pelo nome de uma empresa" required/></label>
 					</div>
 					<div id="search-submit-container">
 						<button type="submit" id="search-submit-btn">Enviar pesquisa</button>
@@ -43,35 +43,20 @@
 				<ul class="nav-list">
 					<li class="nav-item"><a class="nav-link" href="rankings.html">Rankings</a></li>
 					<li class="nav-item"><a class="nav-link" href="companies.html">Empresas cadastradas</a></li>
-					<li class="nav-item"><a class="nav-link" href="add_company.html">Cadastrar uma empresa</a></li>
+					<li class="nav-item"><a class="nav-link" href="add_company.html">Cadastrar minha empresa</a></li>
 					<li class="nav-item"><a class="nav-link" href="news.html">Notícias</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<h1>Fazer login</h1>
-			<form id="login-form">
-				<fieldset>
-					<div class="form-field">
-						<label for="username-field">Nome de usuário ou e-mail</label> 
-						<input type="text" id="username-field" required autofocus/>
-					</div>
-					<div class="form-field">
-						<label for="password-field">Senha</label> 
-						<input type="password" id="password-field" required/>
-					</div>
-										<div class="form-field">
-											<input type="checkbox" id="keep-loged-field"/>
-						<label for="keep-loged-field">Mantenha-me conectado</label>
-					</div>
-				</fieldset>
-				<div class="submit-container">
-					<button type="submit" class="submit-btn" id="login-btn">Entrar</button>
+			<h1>Notícias</h1>
+			<p>Notícias atualizadas sobre o nosso site e o mundo da acessibilidade digital</p>
+			<section id="news">
+				<div class="new">
+					<h2 class="new-heading"><a class="new-link" href="news/new1.html">Projeto inicial do Rastreador de Acessibilidade é criado</a></h2>
+					<p class="new-date">08/11/2023</p>
 				</div>
-			</form>
-			<div class="create-new-account">
-				<a class="create-new-account-link" href="signup.html">Criar uma nova conta</a>
-			</div>
+			</section>
 		</main>
 		<footer>
 			<ul class="nav-list">

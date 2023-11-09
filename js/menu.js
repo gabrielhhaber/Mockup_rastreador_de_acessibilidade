@@ -12,6 +12,9 @@ class MenuButton {
 		this.button=button;
 		this.button.setAttribute("aria-haspopup", "menu");
 		this.button.setAttribute("aria-expanded", "false");
+		this.button.innerHTML+=`
+			<span class="menu-indicator" aria-hidden="true"> &#x25be;</span>
+		`;
 		this.menuId=this.button.getAttribute("data-menu-id");
 		this.menu=document.getElementById(this.menuId);
 		this.menu.setAttribute("role", "menu");
